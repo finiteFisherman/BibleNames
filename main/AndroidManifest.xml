@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rdr.biblenames">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".searchButton"></activity>
+        <activity android:name=".randButton" />
+        <activity android:name=".zButton" />
+        <activity android:name=".yButton" />
+        <activity android:name=".xButton" />
+        <activity android:name=".wButton" />
+        <activity android:name=".vButton" />
+        <activity android:name=".uButton" />
+        <activity android:name=".tButton" />
+        <activity android:name=".sButton" />
+        <activity android:name=".rButton" />
+        <activity android:name=".qButton" />
+        <activity android:name=".pActivity" />
+        <activity android:name=".oButton" />
+        <activity android:name=".nButton" />
+        <activity android:name=".mButton" />
+        <activity android:name=".lButton" />
+        <activity android:name=".kButton" />
+        <activity android:name=".jButton" />
+        <activity android:name=".iButton" />
+        <activity android:name=".hButton" />
+        <activity android:name=".gButton" />
+        <activity android:name=".fButton" />
+        <activity android:name=".eButton" />
+        <activity android:name=".dButton" />
+        <activity android:name=".cButton" />
+        <activity android:name=".bButton" />
+        <activity android:name=".aButton" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1944052140945352~6835337056" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWheat"
+    tools:context=".iButton">
+
+
+
+
+        <TextView
+            android:id="@+id/iText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:text="Randomized I Name: \n (rotate to randomize again)"/>
+
+        <TextView
+            android:id="@+id/iText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp"
+            android:textStyle="italic"
+            android:textSize="50dp" />
+
+        <ListView
+            android:id="@+id/iList"
+            android:layout_marginTop="170dp"
+            android:layout_marginBottom="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-1944052140945352/7116546267">
+        </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
